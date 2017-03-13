@@ -19,4 +19,20 @@ public class NaiveSearch {
         System.out.println("Index not found");
         return -1;
     }
+
+    public int naiveSearch1(int[]data, int key )
+    {
+        int last = data[data.length];
+        data[data.length] = key;
+        int i = 0;
+      while(data[i] != key)
+      {
+          ++i;
+      }
+      if (i != data.length)
+      {
+          return i;
+      }
+      return -1;
+    }
 }
