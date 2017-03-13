@@ -11,9 +11,12 @@ public class NaiveSearch {
         {
             if(data[i] == key)
             {
+                System.out.println("Index " + i);
                 return i;
+
             }
         }
+        System.out.println("Index not found");
         return -1;
     }
 }

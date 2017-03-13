@@ -11,7 +11,7 @@ public class NaiveSearchTest {
    {
        NaiveSearch search = new NaiveSearch();
        int [] testData = new int[]{1,7,8,45,23,78,4,89,12,67,5,10};
-       search.naiveSearch(testData, 5);
+       search.naiveSearch(testData, 11);
    }
 
 }
